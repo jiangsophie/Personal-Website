@@ -1,0 +1,47 @@
+.project-image {
+	max-width: 45%;
+	align-self: center;
+	margin-top: 3vh;
+}
+
+.card-title {
+	font-family: 'Karla';
+    font-size: 18px;
+    color: #595959;
+    text-align: center;
+    margin: -1vh auto auto auto;
+}
+
+.card-subheading {
+	font-family: 'Karla';
+	font-size: 13px;
+	color: #FBA100;
+	text-align: center;
+}
+
+.card-text {
+	white-space: pre-wrap;
+	font-family: 'Karla';
+	font-size: 13px;
+    color: #666666;
+    text-align: left;
+    margin: 1vh auto auto auto;
+}
+
+.card {
+	max-width: 27vw;
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 #FBA100;
+	max-width: 29vw;
+}
+
+.experience-card {
+	max-width: 30vw;
+}
+
+.experience-card:hover {
+	box-shadow: 0 8px 16px 0 #FBA100;
+	max-width: 32vw;
+}

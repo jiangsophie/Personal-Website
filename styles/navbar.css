@@ -1,0 +1,49 @@
+.navbar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+	float: right;
+	margin-right: 5vh;
+	margin-left: 2vh;
+}
+
+.navbar a img {
+	position: relative;
+	float: left;
+	max-width: 30%;
+	width: 10vw;
+	margin-top: -2.5vh;
+	margin-left: 2.5vh; 
+}
+
+.navbar a {
+	color: #666666;
+	text-decoration: none;
+	position: relative;
+}
+
+.navbar a::after {
+	transition: right .4s cubic-bezier(0,.5,0,1),
+	border-color .4s ease-out;
+}
+
+.navbar a:hover {
+	color: #FBA100;
+	right: 0;
+	text-decoration: none;
+}
+
+.navbar a:hover:after {
+	right: 0;
+}
+
+.navbar {
+	display: block;
+	padding: 1.5vh;
+	margin-top: 3vh;
+	font-family: 'Karla';
+	font-size: 14px;
+}
